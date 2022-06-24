@@ -19,9 +19,6 @@ export default {
                 use: [
                     {
                         loader: 'ts-loader',
-                        // options: {
-                        //     configFile: 'tsconfig.json',
-                        // },
                     },
                 ],
                 exclude: /node_modules/,
