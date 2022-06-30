@@ -2,6 +2,11 @@
     "name": "react-spa",
     "version": "1.0.0",
     "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "b": "npx webpack",
+        "serv": "npx webpack serve"
+    },
     "repository": "git@github.com:oramor/react-spa.git",
     "author": "Roman Rodin <romaro83@gmail.com>",
     "license": "MIT",
@@ -10,6 +15,9 @@
         "@types/react": "^18.0.14",
         "@types/react-dom": "^18.0.5",
         "clean-webpack-plugin": "^4.0.0",
+        "ejs-compiled-loader": "^3.1.0",
+        "html-webpack-injector": "^1.1.4",
+        "html-webpack-plugin": "^5.5.0",
         "rimraf": "^3.0.2",
         "ts-loader": "^9.3.1",
         "typescript": "^4.7.4",
@@ -18,6 +26,7 @@
         "webpack-dev-server": "^4.9.3"
     },
     "dependencies": {
+        "fastify": "^4.2.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-router-dom": "6"

@@ -1,0 +1,19 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "composite": true,
+        "module": "ES2020",
+        "rootDir": ".",
+        "outDir": "_web",
+        "target": "ESNext",
+        "moduleResolution": "Node",
+        "allowSyntheticDefaultImports": true,
+        "useUnknownInCatchVariables": false,
+        "declaration": true,
+        "declarationMap": true,
+        "jsx": "react-jsx"
+    },
+    "include": [
+        "**/*"
+    ]
+}

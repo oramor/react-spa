@@ -3,6 +3,11 @@
 yarn add -D rimraf
 ```
 
+# Server
+```
+yarn add Fastify
+```
+
 # Webpack
 ```
 yarn add -D webpack webpack-cli clean-webpack-plugin webpack-dev-server
